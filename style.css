@@ -16,10 +16,6 @@ h2 {
   line-height: normal;
 }
 
-nav {
-  color: #888888;
-}
-
 aside {
   margin: 20px 0;
   color: #c4c4c4;
@@ -48,6 +44,47 @@ cite {
 
 time {
   color: #6a2cce;
+}
+
+a[href] {
+  color: #0099ef;
+  text-decoration-line: underline;
+}
+
+.days {
+  list-style: none;
+  padding-left: 0;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figure img {
+  vertical-align: middle;
+  border: 8px solid rgb(202, 224, 248);
+}
+
+figcaption {
+  width: 502px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(202, 224, 248);
+}
+
+.pagination {
+  text-align: center;
+  color: #888888;
+}
+
+.pagination a {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 15px;
 }
 
 .danger-text {
